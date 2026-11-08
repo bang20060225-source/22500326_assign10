@@ -8,6 +8,12 @@ export const TEXTS = {
 		draw: '비겼다!',
 	},
 
+	scoreboard: {
+		win: '승',
+		draw: '무',
+		lose: '패',
+	},
+
 	form: {
 		options: {
 			rock: {

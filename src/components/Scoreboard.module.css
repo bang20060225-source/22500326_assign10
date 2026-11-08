@@ -1,0 +1,25 @@
+.container {
+	@apply mx-auto
+		mt-6
+		flex
+		w-fit
+		gap-8
+		rounded-lg
+		bg-slate-800
+		px-8
+		py-3
+		text-lg
+		text-neutral-300;
+}
+
+.win {
+	@apply font-bold text-yellow-300;
+}
+
+.draw {
+	@apply font-bold text-neutral-400;
+}
+
+.lose {
+	@apply font-bold text-red-400;
+}
