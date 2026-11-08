@@ -8,7 +8,7 @@ import robot from '../static/robot.webp'
 const Option = ({ children, playerOpt, machineOpt, setPlayerOpt, value, image, imageAlt }) => {
 	const shouldChecked = playerOpt === value
 	const shoudlDisabled = playerOpt !== 'null'
-	const shouldShowRobot = playerOpt !== 'null' && machineOpt === children.toLowerCase()
+	const shouldShowRobot = playerOpt !== 'null' && machineOpt === value
 
 	const handleOnChange = ({ target }) => {
 		setPlayerOpt(target.value)
@@ -36,7 +36,7 @@ const Option = ({ children, playerOpt, machineOpt, setPlayerOpt, value, image, i
 				<img
 					className={styles.robot}
 					src={robot}
-					alt="TODO"
+					alt="로봇이 고른 카드"
 				/>
 			) : (
 				''

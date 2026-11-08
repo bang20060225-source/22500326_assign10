@@ -1,41 +1,41 @@
 export const TEXTS = {
-	header: '- Rock • Paper • Scissors -',
+	header: '- 가위 • 바위 • 보 -',
 
 	subHeader: {
-		default: 'Select an option...',
-		playerWins: 'THE PLAYER WINS!',
-		machineWins: 'THE MACHINE WINS!',
-		draw: 'DRAW, NO ONE WON!',
+		default: '카드를 하나 골라주세요',
+		playerWins: '내가 이겼다!',
+		machineWins: '로봇이 이겼다!',
+		draw: '비겼다!',
 	},
 
 	form: {
 		options: {
 			rock: {
-				text: 'Rock',
+				text: '바위',
 				value: 'rock',
-				altImg: 'Illustration of a rock',
+				altImg: '바위 그림',
 			},
 
 			paper: {
-				text: 'Paper',
+				text: '보',
 				value: 'paper',
-				altImg: 'Illustration of a paper',
+				altImg: '보 그림',
 			},
 
 			scissors: {
-				text: 'Scissors',
+				text: '가위',
 				value: 'scissors',
-				altImg: 'Illustration of a scissors',
+				altImg: '가위 그림',
 			},
 		},
 
-		restart: 'Restart',
+		restart: '다시 하기',
 	},
 
-	instructions: 'Click on a card to select rock, paper, or scissors. Then, the machine will select a random one.',
+	instructions: '가위, 바위, 보 중 하나를 클릭하면 로봇이 랜덤으로 하나를 고릅니다.',
 
 	footer: {
 		copyright: 'Copyright © 2025 Lucas Hoz',
-		sourceCode: '[ View Source Code ]',
+		sourceCode: '[ 원본 소스 코드 ]',
 	},
 }
